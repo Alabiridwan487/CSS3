@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: beige;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+
+}
+nav .first img{
+    height: 50px;
+}
+
+.icon{
+    font-size: 40px;
+    color: rgb(51, 255, 129);
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+}
+
+.icon:hover{
+    font-size: 50px;
+}
+
+.div{
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+    position: relative;
+    background-color: wheat;
+    bottom: 600px;
+    left: 1000px;
+}
+
+.child{
+    height: 50px;
+    width: 50px;
+    background-color: darkgreen;
+    border-radius: 50%;
+    position: absolute;
+    left: 75px;
+    top: 50px;
+}
